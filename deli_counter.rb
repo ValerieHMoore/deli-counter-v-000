@@ -18,7 +18,7 @@ def take_a_number(any_deli,name)
   if any_deli.length > 0 && !any_deli.include?("#{name}")
       puts "Welcome, #{name}. You are number #{any_deli.length + 1} in line."
       any_deli << "#{name}"
-      puts any_deli
+      any_deli
       end
   end
 end
