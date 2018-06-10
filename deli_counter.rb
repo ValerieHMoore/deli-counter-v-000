@@ -28,7 +28,7 @@ def now_serving(any_deli)
     puts "There is nobody waiting to be served!"
   end
   if any_deli.length > 0
-    puts any_deli.first
+    puts "Currently serving #{any_deli.first}"
     any_deli.pop
     any_deli
   end
