@@ -29,7 +29,7 @@ def now_serving(any_deli)
   end
   if any_deli.length > 0
     puts "Currently serving #{any_deli.first}."
-    any_deli.pop
+    any_deli.shift
     any_deli
   end
 end
