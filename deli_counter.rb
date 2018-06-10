@@ -17,9 +17,8 @@ def take_a_number(any_deli,name)
     puts "Welcome, #{name}. You are number 1 in line."
   if any_deli.length > 0 && !any_deli.include?("#{name}")
       puts "Welcome, #{name}. You are number #{any_deli.length + 1} in line."
-      new_array = []
-      new_array << "#{name}"
-      puts any_deli + new_array
+      any_deli << "#{name}"
+      any_deli
       end
   end
 end
