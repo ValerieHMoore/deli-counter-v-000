@@ -22,3 +22,7 @@ def take_a_number(any_deli,name)
         any_deli
         end
 end
+
+def now_serving{any_deli,name)
+  
+end
