@@ -17,7 +17,6 @@ def take_a_number(any_deli,name)
     puts "Welcome, #{name}. You are number 1 in line."
   if any_deli.length > 0 && !any_deli.include?("#{name}")
     any_deli.push(", #{name}")
-      puts "Welcome, #{name}. You are number #{any_deli.index + 1} in line."
       puts any_deli
       end
   end
